@@ -132,18 +132,18 @@ body {
 }
 
 @mixin light {
-  --color-background: #eee;
-  --color-background2: rgba(240, 240, 240, 0.3);
+  --color-background: #fde0e8;
+  --color-background2: rgb(253 224 232 / 60%);
   --color-bg-chart: rgb(245, 245, 245);
   --color-bg-card: rgb(245, 245, 245);
-  --color-focus-blue: #005caf;
-  --btn-bg: #005caf;
+  --color-focus-blue: #fb8aaa;
+  --btn-bg: #fb8aaa;
   --color-proxy-border: #cccccc3b;
-  --card-hover-border-lightness: #005caf;
+  --card-hover-border-lightness: #fb8aaa;
   --color-text: #222;
   --color-text-secondary: #646464;
   --color-text-highlight: #040404;
-  --color-bg-sidebar: #cbcbcb2f;
+  --color-bg-sidebar: #fdc4d4;
   --color-sb-active-row-bg: #005caf;
   --color-sb-active-row-font: #040404;
   @media only screen and (min-width: 769px) {
