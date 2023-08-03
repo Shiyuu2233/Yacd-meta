@@ -12,7 +12,7 @@ const Switch = ReactSwitch.default ? ReactSwitch.default : ReactSwitch;
 
 function SwitchThemed({ checked = false, onChange, theme, name }) {
   const offColor = theme === 'dark' ? '#393939' : '#e9e9e9';
-  const onColor = theme === 'dark' ? '#306081' : '#d495f0';
+  const onColor = theme === 'dark' ? '#306081' : '#f397ff';
   return (
     <Switch
       onChange={onChange}
