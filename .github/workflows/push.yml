@@ -12,9 +12,9 @@ jobs:
         with:
           version: latest
       - name: Setup Nodejs
-        uses: actions/setup-node@v3
+        uses: actions/setup-node@3.8.0
         with:
-          node-version: '18.x'
+          node-version: 'latest'
           cache: pnpm
       - name: Install package and build
         run: |
@@ -25,6 +25,6 @@ jobs:
         with:
           target_branch: gh-pages
           build_dir: public
-          fqdn: yacd.metacubex.one
+          fqdn: yacd.shiyuu.moe
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
