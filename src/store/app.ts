@@ -161,7 +161,7 @@ const defaultState: StateApp = {
 
   latencyTestUrl: 'http://cp.cloudflare.com',
   selectedChartStyleIndex: 0,
-  theme: 'dark',
+  theme: 'auto',
 
   // type { [string]: boolean }
   collapsibleIsOpen: {},
