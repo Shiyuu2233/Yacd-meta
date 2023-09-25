@@ -159,7 +159,7 @@ const defaultState: StateApp = {
   selectedClashAPIConfigIndex: 0,
   clashAPIConfigs: [defaultClashAPIConfig],
 
-  latencyTestUrl: 'http://cp.cloudflare.com',
+  latencyTestUrl: 'https://cp.cloudflare.com',
   selectedChartStyleIndex: 0,
   theme: 'auto',
 
