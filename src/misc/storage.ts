@@ -1,6 +1,6 @@
 // manage localStorage
 
-const StorageKey = 'yacd.metacubex.one';
+const StorageKey = 'yacd.shiyuu.moe';
 
 function loadState() {
   try {
