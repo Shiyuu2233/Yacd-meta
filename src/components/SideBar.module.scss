@@ -69,10 +69,16 @@
 .rowActive {
   background: var(--color-sb-active-row-bg);
   color: var(--color-sb-active-row-font);
+  border-radius: 20px;
+  margin-right: 10px;
+  margin-left: 10px;
 
   @media (max-width: 768px) {
-    background: none;
+    background: var(--color-sb-active-row-bg);
     border-bottom: 2px solid var(--color-focus-blue);
+    border: none;
+    border-radius: 20px;
+
   }
 }
 
