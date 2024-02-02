@@ -1,6 +1,6 @@
 // manage localStorage
 
-const StorageKey = 'yacd.shiyuu.moe';
+const StorageKey = 'yacd.yuuna.lol';
 
 function loadState() {
   try {
